@@ -1,9 +1,9 @@
 /* Body styles */
 body {
-  font-family: 'Arial', 'Verdana', sans-serif;
+  font-family: 'Arial', 'Verdana';
   background-color: #000000;
   color: #FFFFFF;
-  margin: 20px;
+  margin: 20px 20px;
 }
 
 /* H1 styles */
@@ -28,7 +28,9 @@ p {
 /* Image styles */
 img {
   width: 250px;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 10px dashed #FFFFFF;
 }
 
@@ -50,7 +52,8 @@ div {
 .red {
   background-color: #FF0000;
   text-align: right;
-  margin-left: 50px;
+  margin: 0px 0px 0px 50px;
+  border: 0px;
   border-bottom: 2px solid #FFFFFF;
   border-left: 5px solid #FFFFFF;
 }
@@ -60,9 +63,13 @@ div {
   background-color: #0000FF;
   text-align: left;
   margin-right: 50px;
+  border: 0px;
   border-right: 5px solid #FFFFFF;
   border-top: 2px solid #FFFFFF;
-  color: #C4C4C4;
+}
+
+.blue h2, .blue p {
+    color: #C4C4C4;
 }
 
 /* Yellow class styles */
@@ -70,14 +77,23 @@ div {
   background-color: #FFFF00;
   text-align: right;
   margin-left: 50px;
-  margin-right: 50px;
+  border: 0px;
+  border-bottom: 2px solid #FFFFFF;
+  border-left: 5px solid #FFFFFF;
+}
+
+.yellow p {
+    color: #707070;
 }
 
 /* Green class styles */
 .green {
-  background-color: #008000;
-  text-align: center;
-  margin: 0;
+  background-color: #008500;
+  text-align: left;
+  margin: 50px;
+  border: 0px;
+  border-right: 5px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
 }
 
 footer {
