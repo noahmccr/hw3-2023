@@ -1,0 +1,110 @@
+/* Body styles */
+body {
+  font-family: 'Arial', 'Verdana';
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 20px 20px;
+}
+
+/* H1 styles */
+h1 {
+  font-size: 42px;
+  text-align: center;
+  padding: 15px;
+}
+
+/* H2 styles */
+h2 {
+  font-size: 30px;
+  color: #0D0D0D;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 24px;
+  padding: 10px 0 0 10px;
+}
+
+/* Image styles */
+img {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px dashed #FFFFFF;
+}
+
+/* Div styles */
+div {
+  min-height: 125px;
+  padding: 20px;
+  border: 3px solid #FFFFFF;
+}
+
+/* Introduction class styles */
+.introduction {
+  border-radius: 15px;
+  margin: 15px 0 0 0;
+  line-height: 2;
+}
+
+/* Red class styles */
+.red {
+  background-color: #FF0000;
+  text-align: right;
+  margin: 0px 0px 0px 50px;
+  border: 0px;
+  border-bottom: 2px solid #FFFFFF;
+  border-left: 5px solid #FFFFFF;
+}
+
+/* Blue class styles */
+.blue {
+  background-color: #0000FF;
+  text-align: left;
+  margin-right: 50px;
+  border: 0px;
+  border-right: 5px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+}
+
+.blue h2, .blue p {
+    color: #C4C4C4;
+}
+
+/* Yellow class styles */
+.yellow {
+  background-color: #FFFF00;
+  text-align: right;
+  margin-left: 50px;
+  border: 0px;
+  border-bottom: 2px solid #FFFFFF;
+  border-left: 5px solid #FFFFFF;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+/* Green class styles */
+.green {
+  background-color: #008500;
+  text-align: left;
+  margin: 0 50px 0 0;
+  border: 0px;
+  border-right: 5px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+}
+
+footer {
+    /* Gradient background */
+    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000); 
+    /* White border */
+    border: 5px solid #FFFFFF;
+  }
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
+}
